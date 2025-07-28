@@ -101,14 +101,14 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Today's Deals Section */}
+      {/* Today Deals Section */}
       <section className="py-8 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="bg-white rounded-lg p-6 shadow-sm">
             <div className="flex items-center justify-between mb-6">
               <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-2">Today's Deals</h2>
-                <p className="text-gray-600">Don't miss out on these amazing offers</p>
+                <h2 className="text-2xl font-bold text-gray-900 mb-2">Today&apos;s Deals</h2>
+                <p className="text-gray-600">Don&apos;t miss out on these amazing offers</p>
               </div>
               <Link href="/deals" className="text-blue-600 hover:text-blue-800 font-medium">
                 See all deals →
