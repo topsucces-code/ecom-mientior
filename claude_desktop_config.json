@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "ecommerce-supabase": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\Elisee\\Documents\\Ecom mientior\\mcp-server\\dist\\index.js"
+      ],
+      "env": {
+        "SUPABASE_URL": "https://fhewhxjprkksjriohxpv.supabase.co",
+        "SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZoZXdoeGpwcmtrc2pyaW9oeHB2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTI0NDU1NTAsImV4cCI6MjA2ODAyMTU1MH0.xDvbP68uatOw2g5udhP-zAPj06F861mV-Mi8FEvYPyA",
+        "SUPABASE_SERVICE_ROLE_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZoZXdoeGpwcmtrc2pyaW9oeHB2Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1MjQ0NTU1MCwiZXhwIjoyMDY4MDIxNTUwfQ.dYOGV34v1YF0rH2-qHPaRlYg6V8S3OI-DnLOQ_VG-hI"
+      }
+    }
+  }
+}

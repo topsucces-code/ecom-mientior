@@ -1,0 +1,32 @@
+{
+  "name": "ecommerce-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Modern e-commerce platform with web, mobile and admin applications",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "type-check": "turbo run type-check",
+    "clean": "turbo run clean",
+    "setup:supabase": "node scripts/setup-supabase.js",
+    "test:supabase": "node scripts/test-supabase-connection.js",
+    "health:check": "curl -s http://localhost:3010/api/monitoring/health | jq",
+    "metrics": "curl -s http://localhost:3010/api/monitoring/metrics | jq"
+  },
+  "devDependencies": {
+    "turbo": "^2.5.5",
+    "typescript": "^5.3.3"
+  },
+  "packageManager": "npm@10.2.4",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "dependencies": {
+    "@supabase/supabase-js": "^2.52.1",
+    "@types/react-window": "^1.8.8",
+    "dotenv": "^16.6.1",
+    "react-window": "^1.8.11"
+  }
+}

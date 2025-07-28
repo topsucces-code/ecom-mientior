@@ -1,0 +1,32 @@
+{
+  "name": "@ecommerce/admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3006 --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^15.4.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@refinedev/core": "^4.54.1",
+    "@refinedev/nextjs-router": "^6.2.0",
+    "@refinedev/supabase": "^5.9.4",
+    "@refinedev/antd": "^5.45.2",
+    "antd": "^5.12.8",
+    "@ecommerce/shared": "*",
+    "dayjs": "^1.11.10"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.10.5",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "eslint": "^8.55.0",
+    "eslint-config-next": "^15.4.3"
+  }
+}
